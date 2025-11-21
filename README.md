@@ -6,7 +6,7 @@ This repository contains the Python scripts (`mapper.py`, `reducer.py`) and answ
 * Guy First ID 322372681
 * Noa Levy ID 318304904
 
-## 🛠️ Exercise 1: Analyzing Job Counters
+## 🛠️ Exercise 1
 
 ### Initial Job Run (Default Reducers: 3)
 
@@ -28,7 +28,7 @@ This repository contains the Python scripts (`mapper.py`, `reducer.py`) and answ
 
 ---
 
-### Answers for Exercise 1
+### Exercise 1
 
 **Q1. How many files are there now?**
 After the change in the reducers number, there are **7 files** (one of which is the `_SUCCESS` status file).
@@ -47,7 +47,7 @@ The value of 'Merged Map outputs' tracks the total number of times intermediate 
 
 ---
 
-## 🧼 Exercise 2: Data Cleaning and Standardization
+## Exercise 2
 
 The goal was to:
 1.  Strip trailing commas and dots at the end of the words.
@@ -76,7 +76,7 @@ The code is changed in the **Mapper**. The Mapper is the one that collects the v
 
 ---
 
-## 🏆 Exercise 3: Top 3 Word Counts
+## Exercise 3
 
 The goal was to get only the first 3 highest scores of the word count, using the parameter `-numReduceTasks 1`.
 
